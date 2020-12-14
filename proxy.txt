@@ -1,1 +1,4 @@
 supertop.co
+discourse-cdn.com
+ovh.net
+fedorainfracloud.org
