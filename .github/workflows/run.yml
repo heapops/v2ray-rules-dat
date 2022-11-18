@@ -53,10 +53,10 @@ jobs:
           repository: v2fly/domain-list-community
           path: community
 
-      - name: Checkout cokebar/gfwlist2dnsmasq
+      - name: Checkout heapops/gfwlist2dnsmasq
         uses: actions/checkout@v3
         with:
-          repository: cokebar/gfwlist2dnsmasq
+          repository: heapops/gfwlist2dnsmasq
           path: gfwlist2dnsmasq
 
       - name: Get geoip.dat relative files
