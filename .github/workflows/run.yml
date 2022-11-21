@@ -218,4 +218,6 @@ jobs:
           repo: ${{ github.repository }}
           release-drop: true
           release-keep-count: 10
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
